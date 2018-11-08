@@ -22,14 +22,14 @@ spring:
     cache: false
 #    enable-spring-el-compiler: false
 #
-#  mvc:
-#    view:
-#      prefix: classpath:/templates/
-#      suffix: .html
-#    static-path-pattern: /**
-#
-#  resources:
-#    static-locations: classpath:/static/
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+    static-path-pattern: /**
+
+  resources:
+    static-locations: classpath:/static/
 
 
 mybatis:
