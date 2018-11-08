@@ -1,0 +1,53 @@
+server:
+  port: 8081
+#  servlet:
+#    context-path: /spring
+
+spring:
+  profiles:
+    active: jdbc
+
+  devtools:
+    restart:
+      enabled: true
+
+  thymeleaf:
+#    prefix: classpath:/templates/
+#    heck-template-location: true
+#    suffix: .html
+#    encoding: UTF-8
+#    servlet:
+#      content-type: text/html
+    mode: HTML
+    cache: false
+#    enable-spring-el-compiler: false
+#
+#  mvc:
+#    view:
+#      prefix: classpath:/templates/
+#      suffix: .html
+#    static-path-pattern: /**
+#
+#  resources:
+#    static-locations: classpath:/static/
+
+
+mybatis:
+  type-aliases-package: com.vincent.personal.dao
+
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+
+#httpportcfg:
+#  http_port: 8080
+#  https_port: 8443
+#
+## Nettyserver \u914D\u7F6E
+#nettyserver:
+#  serviceIp: 0.0.0.0
+#  servicePort: 3460
