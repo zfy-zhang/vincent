@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 public abstract class AbstractController {
 
-    public static String THEME = "themes/jantent";
+    public static String THEME = "themes/vincent";
 
     protected MapCache cache = MapCache.single();
 

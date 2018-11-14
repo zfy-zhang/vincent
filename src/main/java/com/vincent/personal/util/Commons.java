@@ -27,7 +27,7 @@ public class Commons {
 
     private static ISiteService siteService;
 
-    public static String THEME = "themes/jantent";
+    public static String THEME = "themes/vincent";
 
     private static final List EMPTY = new ArrayList(0);
 
@@ -64,7 +64,7 @@ public class Commons {
      * @return
      */
     public static String site_login() {
-        return "admin/login";
+        return "admins/login";
     }
 
     /**

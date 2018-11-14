@@ -21,14 +21,16 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-//        registry.addInterceptor(baseInterceptor);
-//                .addPathPatterns("**")
-//                .excludePathPatterns("/");
-
-        registry.addInterceptor(baseInterceptor).addPathPatterns("/**")
-                .excludePathPatterns("/login","/static/**");
-//                .excludePathPatterns("/admin/login","login","/static/**");
-        WebMvcConfigurer.super.addInterceptors(registry);
+        registry.addInterceptor(baseInterceptor).addPathPatterns("/admin/**").
+                addPathPatterns("/")
+                .addPathPatterns("/page/**")
+                .addPathPatterns("/article/**")
+                .addPathPatterns("/archives")
+                .addPathPatterns("/links")
+                .addPathPatterns("/about")
+                .addPathPatterns("/search/**")
+                .addPathPatterns("/category")
+                .excludePathPatterns("/admin/login","/admin/logout","/admin/js/**","/admin/css/**","/admin/images/**","/admin/plugins/**","/static/**","/vincent/assets/**","/user/**");
     }
 
     @Override
@@ -40,6 +42,5 @@ public class WebMvcConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/templates/**")
                 .addResourceLocations("classpath:/templates/");
 
-        WebMvcConfigurer.super.addResourceHandlers(registry);
     }
 }

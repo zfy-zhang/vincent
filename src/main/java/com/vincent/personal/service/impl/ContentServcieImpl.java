@@ -52,6 +52,7 @@ public class ContentServcieImpl implements IContentService {
     private RedisTemplate redisTemplate;
 
 //    @Autowired
+    @Resource(name = "redisTemplate")
     private ValueOperations<String,Object> valueOperations;
 
     @Autowired
