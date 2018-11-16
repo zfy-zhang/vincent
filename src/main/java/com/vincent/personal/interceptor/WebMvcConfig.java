@@ -23,6 +23,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(baseInterceptor).addPathPatterns("/admin/**").
                 addPathPatterns("/")
+//                .addPathPatterns("admin/**")
                 .addPathPatterns("/page/**")
                 .addPathPatterns("/article/**")
                 .addPathPatterns("/archives")
@@ -30,6 +31,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 .addPathPatterns("/about")
                 .addPathPatterns("/search/**")
                 .addPathPatterns("/category")
+//                .addPathPatterns("/admin/setting/**")
                 .excludePathPatterns("/admin/login","/admin/logout","/admin/js/**","/admin/css/**","/admin/images/**","/admin/plugins/**","/static/**","/vincent/assets/**","/user/**");
     }
 
