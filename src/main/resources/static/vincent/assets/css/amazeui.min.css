@@ -78,7 +78,7 @@ audio:not([controls]) {
 
 a {
     background-color: transparent;
-    color: #0e90d2
+    color: #8c6228
 }
 
 a:active, a:hover {
@@ -221,11 +221,13 @@ address, blockquote, dl, fieldset, figure, hr, ol, p, pre, ul {
 }
 
 * + address, * + blockquote, * + dl, * + fieldset, * + figure, * + hr, * + ol, * + p, * + pre, * + ul {
-    margin-top: 1.6rem
+    margin-top: 0.8rem;
+    font-size: 16px;
+    font-family: "微软雅黑";
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0 0 1.6rem;
+    margin: 0 0 0.8rem;
     font-weight: 600;
     font-size: 100%
 }
@@ -235,7 +237,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25em
+    font-size: 0.8em
 }
 
 * + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
@@ -2944,11 +2946,12 @@ output {
     padding: .5em 1em;
     text-decoration: none;
     line-height: 1.2;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #4caf66;
+    border: 1px solid #ffffff;
     border-radius: 0;
     margin-bottom: 5px;
-    margin-right: 5px
+    margin-right: 5px;
+    color: #ffffff;
 }
 
 .am-pagination .am-pagination-next a, .am-pagination .am-pagination-prev a {

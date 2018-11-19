@@ -12,7 +12,7 @@ body {
 .log {
     width:100%;
     height:100%;
-    background:url(../img/f10.jpg) #000 no-repeat;
+    background:url(../img/f7777.jpg) #000 no-repeat;
     background-size:100% 100%;
     color:#ffffff;
 }
@@ -265,6 +265,7 @@ h1 span{
     float:left;
     border: 1px solid #eee;
     padding:0.2rem 0.8rem 0.2rem 0.8rem;
+    color: #887171;
 }
 .blog-tag:hover {
     background:#10D07A;

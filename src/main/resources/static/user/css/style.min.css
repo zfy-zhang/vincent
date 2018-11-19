@@ -278,7 +278,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .bg-white {
-    background-color: #1E5B94
+    background-color: #1e2533
 }
 
 .bg-grey {
@@ -336,7 +336,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    color: #313131;
+    color: #dabcbc;
     border: solid 2px currentColor;
     border-radius: 50%
 }
@@ -460,7 +460,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .navbar-logo {
-    font-size: 22px;
+    font-size: 18px;
+    font-family: "微软雅黑";
     color: #fff;
     line-height: 24px;
     position: absolute;
@@ -471,7 +472,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     max-width: 50%;
     height: 22px;
     margin-top: -16px;
-    margin-left: 25px;
+    margin-left: -130px;
     text-decoration: none
 }
 
@@ -489,7 +490,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .navbar-menu a {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "微软雅黑";
     padding: 0 15px
 
 }
@@ -1552,8 +1554,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .footer-meta .meta-copyright .info-text p {
     line-height: 20px;
+    font-family: "微软雅黑";
+    font-size: 14px;
     margin: 0;
-    color: #767676;
+    color: #151414;
     text-align: center;
 }
 
