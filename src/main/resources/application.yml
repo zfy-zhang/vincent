@@ -5,7 +5,7 @@ server:
 
 spring:
   profiles:
-    active: jdbc,log,redis
+    active: jdbc,log,redis,mail
 
   devtools:
     restart:
