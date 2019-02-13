@@ -80,14 +80,6 @@
 
     后面笔者可能还做相关的前后端分离项目,敬请期待!
   
-  http://www.54tianzhisheng.cn/
-  http://thinkinjava.cn/#blog
-  https://www.cnkirito.moe/
-  https://juejin.im/user/59356fea570c35005b5fc55b
-  http://www.jiangxinlingdu.com/
-  https://crossoverjie.top/
-  http://wuchong.me/
-  https://blog.jamespan.me
-  http://www.janti.cn/page/1
+
   
 
